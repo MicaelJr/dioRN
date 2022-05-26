@@ -1,7 +1,7 @@
 DIO / AVANADE
 # Aplicação Mobile com React Native
 
-![App-React-Native](https://user-images.githubusercontent.com/43708135/170575905-35c8a957-4e92-40dd-a9aa-ea05fd610a69.PNG)
+![Android Emulator - Pixel_3_API_31_2_5556 26_05_2022 18_45_43](https://user-images.githubusercontent.com/43708135/170586569-635c1ee4-a96a-49de-85f7-5c2e4dbab735.png)
 
 # Conteúdo
 - Documentação
