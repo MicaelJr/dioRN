@@ -8,6 +8,7 @@ import {
   StatusBar,
   Pressable,
   Linking,
+  ActivityIndicator,
 } from 'react-native';
 
 const colorGitHub = '#010409';
@@ -52,6 +53,46 @@ const App = () => {
           style={[style.defaultText, style.description]}>
           Software Developer | Full Stack Developer | Mobile Developer
         </Text>
+        <View style={style.containerDio}>
+          <View>
+            <ActivityIndicator size="small" color="#0000ff" />
+            <ActivityIndicator size="small" color="#0000ff" />
+            <ActivityIndicator size="small" color="#0000ff" />
+          </View>
+          <View>
+            <ActivityIndicator size="small" color="#0000ff" />
+            <ActivityIndicator
+              style={style.paddingD}
+              size="small"
+              color="#0000ff"
+            />
+            <ActivityIndicator size="small" color="#0000ff" />
+          </View>
+
+          <View style={style.letraI}>
+            <ActivityIndicator size="small" color="#0000ff" />
+            <ActivityIndicator size="small" color="#0000ff" />
+            <ActivityIndicator size="small" color="#0000ff" />
+          </View>
+          <View style={style.letraO}>
+            <ActivityIndicator size="small" color="#0000ff" />
+            <ActivityIndicator size="small" color="#0000ff" />
+            <ActivityIndicator size="small" color="#0000ff" />
+          </View>
+          <View style={style.letra}>
+            <ActivityIndicator size="small" color="#0000ff" />
+            <ActivityIndicator
+              style={style.marginO}
+              size="small"
+              color="#0000ff"
+            />
+          </View>
+          <View style={style.letra}>
+            <ActivityIndicator size="small" color="#0000ff" />
+            <ActivityIndicator size="small" color="#0000ff" />
+            <ActivityIndicator size="small" color="#0000ff" />
+          </View>
+        </View>
         <Pressable onPress={handlePressGoToGithub}>
           <View style={style.button}>
             <Text style={[style.defaultText, style.textButton]}>
@@ -110,5 +151,22 @@ const style = StyleSheet.create({
   textButton: {
     fontWeight: 'bold',
     fontSize: 16,
+  },
+  containerDio: {
+    flexDirection: 'row',
+    marginTop: 20,
+    marginBottom: 10,
+  },
+  paddingD: {
+    paddingLeft: 20,
+  },
+  letraI: {
+    marginStart: 20,
+  },
+  letraO: {
+    marginStart: 20,
+  },
+  marginO: {
+    marginTop: 20,
   },
 });
